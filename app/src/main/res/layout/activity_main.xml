@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <com.sweetmilkcake.digitalprogressbar.DigitalProgressBar
+        android:id="@+id/digital_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:back_circle_color = "@android:color/darker_gray"
+        app:front_arc_color = "@android:color/holo_blue_dark"
+        app:text_color = "@android:color/white"
+        app:radius = "50dp"
+        app:stroke_width = "5dp"
+        app:text_size="20sp"
+        />
+
+</RelativeLayout>
